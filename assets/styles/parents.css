@@ -32,3 +32,21 @@ h3 {
 .banner-item {
     width: 100%;
 }
+
+
+@media screen and (max-width: 1240px) {
+    
+
+}
+@media screen and (max-width: 870px) {
+    .content-item {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .content-item {
+        font-size: 14px;
+    }
+}
