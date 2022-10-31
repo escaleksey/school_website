@@ -1,6 +1,6 @@
 .intro {   
     
-    /* padding-top: 130px;  */
+    margin-top: -130px;
     height: 100vh;
     background-image: url(../img/intro_bg.png);
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 
 .intro_content {
-    padding-top: 290px;
+    padding-top: 400px;
     text-align: center;
     color: #ffffff;
 }
@@ -40,15 +40,7 @@
     top:0;
 }
 
-.banners {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-.banner-item {
-    margin: 15px;
-}
 .banner_img {
     max-width: 300px;
 }
