@@ -1,52 +1,51 @@
-.content {
-    text-align: center;
-
+.news_content {
+       display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-
-.info_content {
-    border-bottom: 1px solid #000;
-    padding-top: 20px;
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-
-.info_content:last-child {
-    border-bottom: 0;
+.rectangle4 {
+  height: 29.85%;
+  background-color: $gainsboro;
+  margin-bottom: 10.67px;
+  align-self: stretch;
 }
-
-
-h3 {
-    font-weight: 700;
-    font-size: 32px;
+.num9092022 {
+  height: 5.08%;
+  width: 85.72%;
+  color: $transparent-black;
+  display: flex;
+  margin-bottom: 48.5px;
+  margin-left: 2.01px;
+  @include montserrat-24-medium;
 }
-
-.content-item {
-    font-size: 20px;
-    max-width: 700px;
-    margin: 20px auto;
+.relativeWrapperOne {
+  width: 99.43%;
+  height: 55.97%;
+  margin-left: 2.01px;
+  position: relative;
 }
-
-.small_textd {
-    font-size: 16px;
+.nazvanieNovosti {
+  height: 13.33%;
+  width: 100.57%;
+  color: $black;
+  display: flex;
+  position: absolute;
+  left: -2.01px;
+  top: -48.5px;
+  @include montserrat-30-bold;
 }
-
-.banner-item {
-    width: 100%;
-}
-
-
-@media screen and (max-width: 1240px) {
-
-
-}
-@media screen and (max-width: 870px) {
-    .content-item {
-        font-size: 16px;
-    }
-
-}
-
-@media screen and (max-width: 770px) {
-    .content-item {
-        font-size: 14px;
-    }
+.novost {
+  height: 100%;
+  width: 100%;
+  color: $black;
+  display: flex;
+  text-align: center;
+  position: relative;
+  @include montserrat-24-medium;
 }
