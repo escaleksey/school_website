@@ -1,0 +1,30 @@
+.news_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news_date {
+  text-align: left;
+}
+.news_item {
+  max-width: 350px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 13px;
+}
+
+.news_text {
+  overflow: hidden;
+  
+}
+
+.news_title {
+  font-weight: 800;
+  padding: 10px;
+}
+
+.news_link {
+  color: black;
+  text-decoration: none;
+}
