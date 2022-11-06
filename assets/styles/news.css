@@ -1,51 +1,30 @@
 .news_content {
-       display: flex;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.news {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.news_date {
+  text-align: left;
 }
-.rectangle4 {
-  height: 29.85%;
-  background-color: $gainsboro;
-  margin-bottom: 10.67px;
-  align-self: stretch;
-}
-.num9092022 {
-  height: 5.08%;
-  width: 85.72%;
-  color: $transparent-black;
-  display: flex;
-  margin-bottom: 48.5px;
-  margin-left: 2.01px;
-  @include montserrat-24-medium;
-}
-.relativeWrapperOne {
-  width: 99.43%;
-  height: 55.97%;
-  margin-left: 2.01px;
-  position: relative;
-}
-.nazvanieNovosti {
-  height: 13.33%;
-  width: 100.57%;
-  color: $black;
-  display: flex;
-  position: absolute;
-  left: -2.01px;
-  top: -48.5px;
-  @include montserrat-30-bold;
-}
-.novost {
-  height: 100%;
-  width: 100%;
-  color: $black;
-  display: flex;
+.news_item {
+  max-width: 350px;
   text-align: center;
-  position: relative;
-  @include montserrat-24-medium;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 13px;
+}
+
+.news_text {
+  overflow: hidden;
+  
+}
+
+.news_title {
+  font-weight: 800;
+  padding: 10px;
+}
+
+.news_link {
+  color: black;
+  text-decoration: none;
 }
