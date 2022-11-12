@@ -1,0 +1,8 @@
+.album_information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo_item {
+    margin: 3px 3px;
+}

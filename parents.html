@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/parents.css">
+    <link rel="stylesheet" href="assets/styles/zoom_images.css">
+    <link rel="stylesheet" href="assets/styles/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Гимназия 8</title>
 </head>
 <body>
@@ -18,16 +21,29 @@
                 </div>
                 <nav class="nav">
                     <div class="nav_links">
-                        <a href="#" class="nav_links-item">ГЛАВНАЯ</a>
-                        <a href="#" class="nav_links-item">НОВОСТИ</a>
-                        <a href="#" class="nav_links-item">О НАС</a>
-                        <a href="#" class="nav_links-item">КОНТАКТЫ</a>
-                        <a href="#" class="nav_links-item">РОДИТЕЛЯМ</a>
-                        <a href="#" class="nav_links-item">ДОКУМЕНТЫ</a>
-                        <a href="#" class="nav_links-item">фотоальбом</a>
+                        <a href="index.html" class="nav_links-item">ГЛАВНАЯ</a>
+                        <a href="news.html" class="nav_links-item">НОВОСТИ</a>
+                        <a href="about.html" class="nav_links-item">О НАС</a>
+                        <a href="contacts.html" class="nav_links-item">КОНТАКТЫ</a>
+                        <a href="parents.html" class="nav_links-item">РОДИТЕЛЯМ</a>
+                        <a href="documents.html" class="nav_links-item">ДОКУМЕНТЫ</a>
+                        <a href="album.html" class="nav_links-item">фотоальбом</a>
                     </div>
-                    <div class="burger">
-                        <span class="burger_menu"></span>
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html" class="nav_links-item">ГЛАВНАЯ</a></li>
+                            <li><a href="news.html" class="nav_links-item">НОВОСТИ</a></li>
+                            <li><a href="about.html" class="nav_links-item">О НАС</a></li>
+                            <li><a href="contacts.html" class="nav_links-item">КОНТАКТЫ</a></li>
+                            <li><a href="parents.html" class="nav_links-item">РОДИТЕЛЯМ</a></li>
+                            <li><a href="documents.html" class="nav_links-item">ДОКУМЕНТЫ</a></li>
+                            <li><a href="album.html" class="nav_links-item">фотоальбом</a></li>
+                        </ul>
                     </div>
                 </nav>
             </div>
@@ -47,7 +63,7 @@
                             <br>
                             Четверг с 16.00 до 17.30
                         </div>
-                        <div class="content-item small_text">ЗАПИСЬ НА ПРИЕМ ПО ТЕЛЕФОНУ: 252 18 57</div>
+                        <div class="content-item small_text">Запись на прием по телефону: 252 18 57</div>
                     </div>
                 </div>
             </section>
@@ -56,12 +72,34 @@
                     <div class="info_content">
                         <h3>Уважаемые родители!</h3>
                         <div class="content-item" >
-                            Информируем вас о работе краевого консультационного центра для родителей. Консультационный центр государственного бюджетного учреждения Пермского края «Центр психолого-педагогической, медицинской и социальной помощи» (далее - ГБУПК «ЦППМСП») осуществляет свою работу в рамках федерального проекта «Поддержка семей, имеющих детей» национального проекта «Образование».
+                            <p>Информируем вас о работе краевого консультационного центра для родителей. Консультационный центр государственного бюджетного учреждения Пермского края «Центр психолого-педагогической, медицинской и социальной помощи» (далее - ГБУПК «ЦППМСП») осуществляет свою работу в рамках федерального проекта «Поддержка семей, имеющих детей» национального проекта «Образование».</p>
     
-                            В рамках работы консультационного центра квалифицированные консультанты предоставляют психолого-педагогическую, методическую и консультативную помощь родителям (законным представителям) в вопросах сопровождения детей и подростков. Консультации проводятся бесплатно.
-                            Консультации проводятся как в очном, так и в дистанционном режиме (по телефону, электронной почте, Viber, Zoom, VK).
-                            Телефон для справок: 8 (342)262-81-41.
-                            Информация о работе консультационного центра расположена на сайте ГБУПК «ЦППМСП» по адресу <a href="cpmpk.ru">cpmpk.ru</a>.
+                            <p>
+                                В рамках работы консультационного центра квалифицированные консультанты предоставляют психолого-педагогическую, методическую и консультативную помощь родителям (законным представителям) в вопросах сопровождения детей и подростков. Консультации проводятся бесплатно.
+                                Консультации проводятся как в очном, так и в дистанционном режиме (по телефону, электронной почте, Viber, Zoom, VK).
+                                Телефон для справок: 8 (342)262-81-41.
+                                Информация о работе консультационного центра расположена на сайте ГБУПК «ЦППМСП» по адресу <a href="cpmpk.ru">cpmpk.ru</a>.
+                            </p>
+                            <div class="files">
+                                <div class="file-item">
+                                    <a href="assets/files/parents/pamyatka_dlya_roditeley_po_formirovaniyu_byudzheta_obscheobrazovatelnogo_uchrezhdeniya.docx" download="">Памятка для родителей по формированию бюджета общеобразовательного учреждения</a>
+                                </div>
+                                <div class="file-item">
+                                    <a href="assets/files/parents/struktura_byudzheta_obscheobrazovatelnogo_uchrezhdeniya.docx" download="">Структура бюджета общеобразовательного учреждения</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banners">
+                            <div class="banner-item">
+                                <img class="banner_img minimized" src="assets/img/banners/sn2 2.png" alt="">
+                            </div>
+                            <div class="banner-item">
+                                <img class="banner_img minimized" src="assets/img/banners/sn3 1.png" alt="">
+                            </div>
+                            <div class="banner-item">
+                                <img class="banner_img minimized" src="assets/img/banners/sn_1 1.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +107,7 @@
             <section class="info_materials">
                 <div class="container">
                     <div class="info_content">
-                        <h3>Уважаемые родители!</h3>
+                        <h3>Информационные материалы:</h3>
                         <div class="content-item">
                             <a href="https://cloud.mail.ru/public/C5UC/fWj29CLjj" target="_blank">Видеоролики «Отцовство – твой главный жизненный проект» </a>;
                             <br><br>
@@ -81,21 +119,9 @@
                             <a href="https://cloud.mail.ru/public/G4Qx/NB1EUD6Nz" target="_blank">
                             Плакаты «Подростковая агрессия» </a>
                             <br><br>
-                            Памятка для родителей по формированию бюджета общеобразовательного учреждения
-                            <br><br>
-                            Структура бюджета общеобразовательного учреждения
+                            
                         </div>
-                        <div class="banners">
-                            <div class="banner-item">
-                                <a href="#"><img class="banner_img" src="assets/img/banners/sn2 2.png" alt=""></a>
-                            </div>
-                            <div class="banner-item">
-                                <a href="#"><img class="banner_img" src="assets/img/banners/sn3 1.png" alt=""></a>
-                            </div>
-                            <div class="banner-item">
-                                <a href="#"><img class="banner_img" src="assets/img/banners/sn_1 1.png" alt=""></a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -124,8 +150,8 @@
             </div>
         </div>
     </footer>
-    
-    
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/zoom.js"></script>
     
 </body>
 </html>

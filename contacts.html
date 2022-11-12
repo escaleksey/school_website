@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/contacts.css">
     <link rel="stylesheet" href="assets/styles/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
                         <a href="documents.html" class="nav_links-item">ДОКУМЕНТЫ</a>
                         <a href="album.html" class="nav_links-item">фотоальбом</a>
                     </div>
-                    <div class="menu-btn">
+                    <div class="menu-btn" id="menuBtn">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -51,69 +51,25 @@
     </header>
 
     <main class="main">
-        <section class="intro">
-            <div class="container">
-                <div class="intro_content">
-                    <div class="intro_titles">
-                        <h2 class="sub_title">Муниципальное Автономное Общеобразовательное Учреждение</h2>
-                        <h1 class="title">Гимназия №8</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="main_info">
-            <div class="container">
-                <div class="content">
-                    <div class="video_content">
-                        <div class="video-item">
-                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/AsfrgiNY8ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-item">
-                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KxZ0OLpNbpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        
-                    </div>
-    
-                    <div class="banners">
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/1klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/5klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/10klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner1.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img"src="assets/img/banners/banner2.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner3.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner4.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner5.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner6.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner7.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner8.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
+        <div class="content">
+            <section class="contancts" >
+                <div class="container">
+                    <div class="contancts_content">
+                        <h3>Контакты</h3>
+                        <div class="contancts_information">
+                            <p class="name">Муниципальное автономное общеобразовательное учреждение «Гимназия № 8» г. Перми</p>
+                            <p class="address">Наш адрес: 614101 г. Пермь ул. Закамская, 39</p>
+                            <p class="number">Контактный телефон: 8(342) 252-18-57 (приёмная), 8(342) 252-07-51 (бухгалтерия)</p>
+                            <p class="email">e-mail: gimnaziya8@permedu.online</p>
+                            <p class="headmaster">Директор гимназии: Димарчук Альбина Рафиковна</p>
 
 
-            </div>
-        </section>
+                        </div>
+                        <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A83835cd33b4a6b59a92f29513361dc1b5adcb0715beb6516c467d1c09573a400&amp;source=constructor"  frameborder="0"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
@@ -138,7 +94,7 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/menu.js" defer></script>
     
     
 </body>

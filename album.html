@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/album.css">
     <link rel="stylesheet" href="assets/styles/menu.css">
+    <link rel="stylesheet" href="assets/styles/zoom_images.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Гимназия 8</title>
@@ -28,7 +29,7 @@
                         <a href="documents.html" class="nav_links-item">ДОКУМЕНТЫ</a>
                         <a href="album.html" class="nav_links-item">фотоальбом</a>
                     </div>
-                    <div class="menu-btn">
+                    <div class="menu-btn" id="menuBtn">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -51,69 +52,61 @@
     </header>
 
     <main class="main">
-        <section class="intro">
-            <div class="container">
-                <div class="intro_content">
-                    <div class="intro_titles">
-                        <h2 class="sub_title">Муниципальное Автономное Общеобразовательное Учреждение</h2>
-                        <h1 class="title">Гимназия №8</h1>
+        <div class="content">
+            <section class="album" >
+                <div class="container">
+                    <div class="album_content">
+                        <h3>Фотоальбом</h3>
+                        <div class="album_information">
+                            <div class="photo_item">
+                                <img src="assets/img/photo.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo2.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo3.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo4.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo5.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo5.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo6.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo2.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo2.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo3.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo4.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo5.jpg" class="minimized" alt="">
+                            </div>
+                            <div class="photo_item">
+                                <img src="assets/img/photo6.jpg" class="minimized" alt="">
+                            </div>
+
+                        </div>
+                        <a href="https://vk.com/public208949923" target="_blank">Больше фотографий в нашей группе</a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="main_info">
-            <div class="container">
-                <div class="content">
-                    <div class="video_content">
-                        <div class="video-item">
-                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/AsfrgiNY8ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-item">
-                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KxZ0OLpNbpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        
-                    </div>
-    
-                    <div class="banners">
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/1klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/5klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/10klass.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner1.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img"src="assets/img/banners/banner2.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner3.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner4.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner5.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner6.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner7.png" alt=""></a>
-                        </div>
-                        <div class="banner-item">
-                            <a href="#"><img class="banner_img" src="assets/img/banners/banner8.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
@@ -138,7 +131,8 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/zoom.js"></script>
     
     
 </body>
